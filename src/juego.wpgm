@@ -1,7 +1,7 @@
 import wollok.game.*
 import logica.*
 
-program tablero {
+program juegopingu {
 
     game.title("Pingu")
     game.width(40)
