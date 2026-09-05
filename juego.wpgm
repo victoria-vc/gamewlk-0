@@ -1,0 +1,17 @@
+import wollok.game.*
+import logica.*
+
+program tablero {
+
+    game.title("Pingu")
+    game.width(40)
+    game.height(40)
+    game.boardGround("antartida.jpg")
+
+    game.addVisualCharacter(pingu)
+
+    keyboard.enter().onPressDo { pingu.saludar() }
+
+    game.start()
+
+}
